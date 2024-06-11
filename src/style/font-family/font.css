@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'SnasmBook';
+    src: url('Snasm-Book.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Snasm';
+    src: url('Snasm-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}

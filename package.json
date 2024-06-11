@@ -1,0 +1,53 @@
+{
+  "name": "vite-ts-web3-vue",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit --skipLibCheck && vite build --mode production",
+    "build:qa": "vue-tsc --noEmit --skipLibCheck && vite build --mode development",
+    "preview": "vite preview",
+    "ignore-dts-errors": "node ignore-dts-errors.js"
+  },
+  "dependencies": {
+    "@wagmi/connectors": "^4.1.25",
+    "@wagmi/core": "^2.6.16",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "@web3modal/wagmi": "^4.1.7",
+    "amfe-flexible": "^2.2.1",
+    "animate.css": "^4.1.1",
+    "animejs": "^3.2.1",
+    "axios": "^0.27.2",
+    "echarts": "^5.4.1",
+    "ethers": "^5.4.1",
+    "pinia": "^2.0.0-rc.10",
+    "postcss-pxtorem": "^6.0.0",
+    "scss": "^0.2.4",
+    "sortablejs": "^1.15.0",
+    "src": "^1.1.2",
+    "terser": "^5.29.2",
+    "typed.js": "^2.0.16",
+    "viem": "^2.9.16",
+    "vue": "^3.4.21",
+    "vue-router": "^4.0.13",
+    "web3": "^1.7.3",
+    "web3modal": "^1.9.8"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.181",
+    "@types/lodash-es": "^4.17.6",
+    "@types/node": "^20.11.24",
+    "@vitejs/plugin-legacy": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "naive-ui": "^2.31.0",
+    "rollup-plugin-polyfill-node": "^0.9.0",
+    "sass": "^1.52.3",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.6.9",
+    "unplugin-vue-components": "^0.18.5",
+    "vite": "^5.1.4",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vue-tsc": "^1.8.27"
+  }
+}
